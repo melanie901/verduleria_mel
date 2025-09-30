@@ -1,0 +1,15 @@
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.exe.config
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.exe
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.pdb
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.Form1.resources
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.exe
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\MySql.Data.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\System.Memory.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.exe.config
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.Up2Date
