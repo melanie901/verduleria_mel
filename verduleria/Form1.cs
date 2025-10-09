@@ -23,17 +23,24 @@ namespace verduleria
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
+       
         {
             try
             {
-                string usuario = label1.Text;
+             
+                string usuario = txtUsuario.Text;
                 string pass = txtPassword.Text;
 
-                Usuario u = new Usuario(usuario, pass);
-                ControlLogin control = new ControlLogin();
-                bool validacion = control.usuarioValido(u);
+           
+                Usuario u = new Usuario();
+                u.User = usuario;
+                u.Password = pass;
 
-                if (validacion)
+                ModeloLogin modelo = new ModeloLogin();
+                Usuario resultado = modelo.buscarUsuario(u);
+
+                // Validamos
+                if (resultado != null && resultado.Password == pass)
                 {
                     MessageBox.Show("¡Bienvenido!", "Inicio de Sesión",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -46,7 +53,7 @@ namespace verduleria
                 {
                     MessageBox.Show("Usuario/Contraseña inválido", "Error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    label1.Focus();
+                    txtUsuario.Focus();
                 }
             }
             catch (Exception ex)
@@ -69,6 +76,13 @@ namespace verduleria
             txtUsuario.Text = "";
             txtPassword.Text = "";
             txtUsuario.Focus();
+        }
+
+        private void btnRegistar_Click(object sender, EventArgs e)
+        {
+            registro_de_usuarios formularioRegistro = new registro_de_usuarios();
+
+            formularioRegistro.ShowDialog(); 
         }
     }
 }
