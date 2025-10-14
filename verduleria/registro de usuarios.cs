@@ -52,34 +52,20 @@ namespace verduleria
                 string pass = txtPassword.Text.Trim();
                 string confirmar = txtConfirmarPassword.Text.Trim();
 
-                
-                if (nombreApellido == "" || user == "" || pass == "" || confirmar == "")
-                {
-                    MessageBox.Show("Por favor, complete todos los campos.");
-                    return;
-                }
+                Usuario usuarioRegistrar = new Usuario();
+                usuarioRegistrar.Nombre = nombreApellido;
+                usuarioRegistrar.User = user;
+                usuarioRegistrar.Password = pass;
+                usuarioRegistrar.PasswordConfirma = confirmar;
+                usuarioRegistrar.IdTipoUser = int.Parse(comboTipoUser.SelectedValue.ToString());
 
-                if (pass != confirmar)
-                {
-                    MessageBox.Show("Las contraseñas no coinciden.");
-                    return;
-                }
+                ControlUsuario c = new ControlUsuario();
 
-                if (comboTipoUser.SelectedIndex == -1)
-                {
-                    MessageBox.Show("Seleccione un tipo de usuario.");
-                    return;
-                }
-
-                int idTipoUser = Convert.ToInt32(comboTipoUser.SelectedValue);
-
-                bool exito = modelo.registrarUsuario(nombreApellido, user, pass, idTipoUser);
+                bool exito = c.ControlRegistroUsuarios(usuarioRegistrar);
 
                 if (exito)
                 {
                     MessageBox.Show("Usuario registrado correctamente ✅");
-
-                   
                     txtNombreApellido.Clear();
                     txtUser.Clear();
                     txtPassword.Clear();
@@ -109,6 +95,11 @@ namespace verduleria
         }
 
         private void registro_de_usuarios_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistrar_Click_1(object sender, EventArgs e)
         {
 
         }

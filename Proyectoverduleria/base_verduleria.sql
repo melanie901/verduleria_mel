@@ -160,7 +160,7 @@ CREATE TABLE `tipo_usuarios` (
   `idTipoUser` int NOT NULL AUTO_INCREMENT,
   `descripcion` varchar(50) NOT NULL,
   PRIMARY KEY (`idTipoUser`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -169,6 +169,7 @@ CREATE TABLE `tipo_usuarios` (
 
 LOCK TABLES `tipo_usuarios` WRITE;
 /*!40000 ALTER TABLE `tipo_usuarios` DISABLE KEYS */;
+INSERT INTO `tipo_usuarios` VALUES (1,'Empleado'),(2,'cliente'),(3,'proveedor');
 /*!40000 ALTER TABLE `tipo_usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -185,13 +186,11 @@ CREATE TABLE `usuario` (
   `Password` varchar(200) NOT NULL,
   `Nombre` varchar(100) NOT NULL,
   `idTipoUser` int NOT NULL,
-  `id_empleado` int NOT NULL,
+  `id_empleado` int DEFAULT NULL,
   PRIMARY KEY (`idUser`),
   KEY `usuario_tipo_usuarios_FK` (`idTipoUser`),
-  KEY `usuario_empleados_FK` (`id_empleado`),
-  CONSTRAINT `usuario_empleados_FK` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id_empleado`),
   CONSTRAINT `usuario_tipo_usuarios_FK` FOREIGN KEY (`idTipoUser`) REFERENCES `tipo_usuarios` (`idTipoUser`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -200,6 +199,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
+INSERT INTO `usuario` VALUES (8,'melanie','8cb2237d0679ca88db6464eac60da96345513964','mel obreque',2,NULL),(9,'noelia','40bd001563085fc35165329ea1ff5c5ecbdbbeef','noe obreque',3,NULL);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -245,4 +245,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-10-06 13:55:13
+-- Dump completed on 2025-10-14 16:08:57

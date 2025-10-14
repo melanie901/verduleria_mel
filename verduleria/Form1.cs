@@ -35,12 +35,11 @@ namespace verduleria
                 Usuario u = new Usuario();
                 u.User = usuario;
                 u.Password = pass;
-
-                ModeloLogin modelo = new ModeloLogin();
-                Usuario resultado = modelo.buscarUsuario(u);
-
+                
                 // Validamos
-                if (resultado != null && resultado.Password == pass)
+                ControlLogin control = new ControlLogin();  
+                Usuario resultado = control.usuarioValido(u);
+                if (resultado != null)
                 {
                     MessageBox.Show("¡Bienvenido!", "Inicio de Sesión",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);

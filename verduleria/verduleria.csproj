@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlLogin.cs" />
+    <Compile Include="ControlUsuario.cs" />
     <Compile Include="EliminarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>

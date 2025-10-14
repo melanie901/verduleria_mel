@@ -9,19 +9,19 @@ namespace verduleria
 {
     internal class ControlLogin
     {
-            public bool usuarioValido(Usuario u)
+            public Usuario usuarioValido(Usuario u)
             {
                 ModeloLogin m = new ModeloLogin();
                 if (string.IsNullOrEmpty(u.User) || string.IsNullOrEmpty(u.Password))
-                    return false;
+                    return null;
 
                 Usuario usuarioEncontrado = m.buscarUsuario(u);
                 if (usuarioEncontrado != null)
                 {
                     if (usuarioEncontrado.Password == generarSHA1(u.Password))
-                        return true;
+                        return usuarioEncontrado;
                 }
-                return false;
+                return null;
             }
 
             private string generarSHA1(string cadena)
