@@ -25,6 +25,7 @@ namespace verduleria
             btnCancelar.Click += btnCancelar_Click;
 
             cargarTiposDeUsuario();
+            cargarUsuarios();
         }
 
         private void cargarTiposDeUsuario()
@@ -42,7 +43,22 @@ namespace verduleria
                 MessageBox.Show("Error al cargar tipos de usuario: " + ex.Message);
             }
         }
-
+        private void cargarUsuarios()
+        {
+            try
+            {
+                DataTable dtUsuarios = modelo.obtenerUsuariosConTipo();
+                dataGridViewUsuarios.DataSource = dtUsuarios;
+                dataGridViewUsuarios.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dataGridViewUsuarios.ReadOnly = true;
+                dataGridViewUsuarios.AllowUserToAddRows = false;
+                dataGridViewUsuarios.AllowUserToDeleteRows = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar los usuarios: " + ex.Message);
+            }
+        }
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             try
@@ -71,6 +87,7 @@ namespace verduleria
                     txtPassword.Clear();
                     txtConfirmarPassword.Clear();
                     comboTipoUser.SelectedIndex = -1;
+                    cargarUsuarios(); // recarga la tabla
                 }
                 else
                 {
@@ -92,6 +109,7 @@ namespace verduleria
         {
             EliminarUsuario formEliminar = new EliminarUsuario();
             formEliminar.ShowDialog();
+            cargarUsuarios();
         }
 
         private void registro_de_usuarios_Load(object sender, EventArgs e)
@@ -100,6 +118,11 @@ namespace verduleria
         }
 
         private void btnRegistrar_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

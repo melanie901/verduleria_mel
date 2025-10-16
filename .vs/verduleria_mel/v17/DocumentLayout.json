@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\controllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\controllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|c:\\users\\melanie\\onedrive\\desktop\\verduleria mel\\verduleria\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\eliminarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\eliminarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\modelousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\modelousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|c:\\users\\melanie\\onedrive\\desktop\\verduleria mel\\verduleria\\controllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\controllogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\modelologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\modelousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\modelousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\eliminarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\eliminarusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\frmusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,28 +67,12 @@
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\eliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|solutionrelative:verduleria\\registro de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6406E1AC-2177-4AC6-8067-9734C541F8DB}|verduleria\\verduleria.csproj|C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,56 +98,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Conexion.cs",
-              "RelativeDocumentMoniker": "verduleria\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Conexion.cs",
-              "RelativeToolTip": "verduleria\\Conexion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T17:38:49.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "verduleria\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.Designer.cs",
-              "RelativeToolTip": "verduleria\\Form1.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T18:51:38.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModeloLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloLogin.cs",
-              "RelativeDocumentMoniker": "verduleria\\ModeloLogin.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloLogin.cs",
-              "RelativeToolTip": "verduleria\\ModeloLogin.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAABAwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T18:34:57.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ModeloUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloUsuarios.cs",
               "RelativeDocumentMoniker": "verduleria\\ModeloUsuarios.cs",
               "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloUsuarios.cs",
               "RelativeToolTip": "verduleria\\ModeloUsuarios.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwCgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:49:22.798Z"
+              "WhenOpened": "2025-10-08T16:49:22.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Usuario.cs",
               "RelativeDocumentMoniker": "verduleria\\Usuario.cs",
@@ -155,23 +119,25 @@
               "RelativeToolTip": "verduleria\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T18:34:23.011Z"
+              "WhenOpened": "2025-09-25T18:34:23.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EliminarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.cs",
               "RelativeDocumentMoniker": "verduleria\\EliminarUsuario.cs",
               "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.cs",
               "RelativeToolTip": "verduleria\\EliminarUsuario.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAADwv3wAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T19:00:30.07Z"
+              "WhenOpened": "2025-10-08T19:00:30.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ControlLogin.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ControlLogin.cs",
               "RelativeDocumentMoniker": "verduleria\\ControlLogin.cs",
@@ -184,30 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EliminarUsuario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.Designer.cs",
-              "RelativeDocumentMoniker": "verduleria\\EliminarUsuario.Designer.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.Designer.cs",
-              "RelativeToolTip": "verduleria\\EliminarUsuario.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T00:15:03.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.cs",
-              "RelativeDocumentMoniker": "verduleria\\Form1.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "verduleria\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T19:03:17.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Program.cs",
               "RelativeDocumentMoniker": "verduleria\\Program.cs",
@@ -219,18 +162,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EliminarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.cs",
-              "RelativeDocumentMoniker": "verduleria\\EliminarUsuario.cs",
-              "ToolTip": "C:\\Users\\nico_\\OneDrive\\Escuela\\T\u00E9cnica\\7mo\\Proyecto\\2025\\PROYECTOS\\OBREQUE\\verduleria_mel\\verduleria\\EliminarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\nico_\\OneDrive\\Escuela\\T\u00E9cnica\\7mo\\Proyecto\\2025\\PROYECTOS\\OBREQUE\\verduleria_mel\\verduleria\\EliminarUsuario.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "registro de usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
+              "RelativeDocumentMoniker": "verduleria\\registro de usuarios.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "verduleria\\registro de usuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:54:38.985Z"
+              "WhenOpened": "2025-10-08T14:40:42.955Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "registro de usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
+              "RelativeDocumentMoniker": "verduleria\\registro de usuarios.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
+              "RelativeToolTip": "verduleria\\registro de usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:09:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EliminarUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.cs",
+              "RelativeDocumentMoniker": "verduleria\\EliminarUsuario.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "verduleria\\EliminarUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:54:38.985Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliminarUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "verduleria\\EliminarUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\EliminarUsuario.Designer.cs",
+              "RelativeToolTip": "verduleria\\EliminarUsuario.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAFEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:15:03.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModeloLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloLogin.cs",
+              "RelativeDocumentMoniker": "verduleria\\ModeloLogin.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\ModeloLogin.cs",
+              "RelativeToolTip": "verduleria\\ModeloLogin.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T18:34:57.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "verduleria\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.Designer.cs",
+              "RelativeToolTip": "verduleria\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T18:51:38.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Conexion.cs",
+              "RelativeDocumentMoniker": "verduleria\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Conexion.cs",
+              "RelativeToolTip": "verduleria\\Conexion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T17:38:49.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.cs",
+              "RelativeDocumentMoniker": "verduleria\\Form1.cs",
+              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "verduleria\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T19:03:17.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "FrmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "verduleria\\FrmPrincipal.cs",
@@ -241,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "FrmUsuario.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\FrmUsuario.Designer.cs",
               "RelativeDocumentMoniker": "verduleria\\FrmUsuario.Designer.cs",
@@ -253,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\Form1.cs",
               "RelativeDocumentMoniker": "verduleria\\Form1.cs",
@@ -265,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "verduleria\\FrmPrincipal.cs",
@@ -277,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "FrmUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\FrmUsuario.cs",
               "RelativeDocumentMoniker": "verduleria\\FrmUsuario.cs",
@@ -285,29 +317,6 @@
               "RelativeToolTip": "verduleria\\FrmUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T18:58:02.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "registro de usuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
-              "RelativeDocumentMoniker": "verduleria\\registro de usuarios.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "verduleria\\registro de usuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:40:42.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "registro de usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
-              "RelativeDocumentMoniker": "verduleria\\registro de usuarios.cs",
-              "ToolTip": "C:\\Users\\Melanie\\OneDrive\\Desktop\\verduleria mel\\verduleria\\registro de usuarios.cs",
-              "RelativeToolTip": "verduleria\\registro de usuarios.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:09:31.219Z"
             },
             {
               "$type": "Document",
@@ -331,7 +340,8 @@
               "RelativeToolTip": "verduleria\\registro de usuarios.Designer.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAASwLgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:42:18.269Z"
+              "WhenOpened": "2025-10-08T16:42:18.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

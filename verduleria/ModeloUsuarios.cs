@@ -83,6 +83,59 @@ namespace verduleria
                     MessageBox.Show("Error al registrar usuario: " + ex.Message);
                     return false;
                 }
-            }
         }
+        public bool eliminarUsuario(int idUser)
+        {
+            try
+            {
+                miConexion = new Conexion();
+                conectar = miConexion.GetConexion();
+                conectar.Open();
+
+                string consulta = "DELETE FROM usuario WHERE idUser = @idUser";
+                MySqlCommand cmd = new MySqlCommand(consulta, conectar);
+                cmd.Parameters.AddWithValue("@idUser", idUser);
+
+                int filas = cmd.ExecuteNonQuery();
+                conectar.Close();
+
+                return filas > 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al eliminar usuario: " + ex.Message);
+                return false;
+            }
+        } // 👈 este cierra el método nuevo
+
+        public DataTable obtenerUsuariosConTipo()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                miConexion = new Conexion();
+                conectar = miConexion.GetConexion();
+                conectar.Open();
+
+                string consulta = @"SELECT 
+                                        u.idUser AS ID,
+                                        u.Nombre AS Nombre,
+                                        u.User AS Usuario,
+                                        t.descripcion AS TipoUsuario
+                                    FROM usuario u
+                                    INNER JOIN tipo_usuarios t ON u.idTipoUser = t.idTipoUser";
+
+                MySqlCommand comando = new MySqlCommand(consulta, conectar);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(comando);
+                adapter.Fill(dt);
+                conectar.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al obtener los usuarios: " + ex.Message);
+            }
+            return dt;
+        } 
+
     }
+}
