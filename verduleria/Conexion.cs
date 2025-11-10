@@ -9,12 +9,11 @@ namespace verduleria
 {
 public class Conexion
     {
-      
         private const string servidor = "datasource=127.0.0.1";
         private const string puerto = "port=3306";
         private const string username = "username=root";
-        private const string password = "password=amatista";
-        private const string bd = "database=verduleria";
+        private const string password = "password=root";
+        private const string bd = "database=base_verduleria";
     
         private String cadenaConexion;
       

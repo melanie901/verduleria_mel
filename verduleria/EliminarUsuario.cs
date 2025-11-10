@@ -115,5 +115,10 @@ namespace verduleria
             registro.Show();
             this.Close();
         }
+
+        private void btnEliminar_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,16 +23,16 @@ namespace verduleria
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
+            Conexion conexion = new Conexion();
+            MySqlConnection c = conexion.GetConexion();
             try
             {
-                string connectionString = "server=localhost;database=verduleria;uid=root;pwd=amatista;";
-                using (MySqlConnection conexion = new MySqlConnection(connectionString))
                 {
-                    conexion.Open();
+                    c.Open();
 
                     // Insertar una nueva venta
                     string insertVenta = "INSERT INTO ventas (fecha, id_cliente, id_empleado) VALUES (NOW(), 1, 1)";
-                    MySqlCommand cmdVenta = new MySqlCommand(insertVenta, conexion);
+                    MySqlCommand cmdVenta = new MySqlCommand(insertVenta, c);
                     cmdVenta.ExecuteNonQuery();
 
                     // Obtener el ID de esa venta
@@ -46,7 +46,7 @@ namespace verduleria
                     // Insertar detalle de venta
                     string insertDetalle = "INSERT INTO detalleventas (id_venta, id_producto, cantidad, precio_unitario) " +
                                            "VALUES (@idVenta, (SELECT id_producto FROM productos WHERE nombre = @producto LIMIT 1), @cantidad, @precio)";
-                    MySqlCommand cmdDetalle = new MySqlCommand(insertDetalle, conexion);
+                    MySqlCommand cmdDetalle = new MySqlCommand(insertDetalle, c);
                     cmdDetalle.Parameters.AddWithValue("@idVenta", idVenta);
                     cmdDetalle.Parameters.AddWithValue("@producto", producto);
                     cmdDetalle.Parameters.AddWithValue("@cantidad", cantidad);
@@ -61,6 +61,7 @@ namespace verduleria
             {
                 MessageBox.Show(" Error al registrar la venta: " + ex.Message);
             }
+            c.Close();
         } 
         private void FrmTienda_Load(object sender, EventArgs e)
         {
@@ -76,14 +77,14 @@ namespace verduleria
         private void CargarProductos()
 
         {
+            Conexion conexion = new Conexion();
+            MySqlConnection c = conexion.GetConexion();
             try
             {
-                string connectionString = "server=localhost;database=verduleria;uid=root;pwd=amatista;";
-                using (MySqlConnection conexion = new MySqlConnection(connectionString))
                 {
-                    conexion.Open();
+                    c.Open();
                     string query = "SELECT id_producto, nombre FROM productos";
-                    MySqlCommand cmd = new MySqlCommand(query , conexion);
+                    MySqlCommand cmd = new MySqlCommand(query , c);
                     MySqlDataAdapter da= new MySqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
                     da.Fill(dt);
@@ -97,6 +98,7 @@ namespace verduleria
             {
                 MessageBox.Show("Error al cargar productos: " + ex.Message);
             }
+            c.Close();
 
         }
        
