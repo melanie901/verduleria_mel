@@ -34,10 +34,9 @@
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.btnTienda = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,39 +77,18 @@
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
-            // button1
+            // btnProveedores
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(226, 164);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 39);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Productos";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(226, 49);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 42);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Proveedores";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(226, 276);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 35);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Usuarios";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnProveedores.BackColor = System.Drawing.Color.White;
+            this.btnProveedores.Font = new System.Drawing.Font("Verdana", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProveedores.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnProveedores.Location = new System.Drawing.Point(232, 215);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(155, 48);
+            this.btnProveedores.TabIndex = 2;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // button4
             // 
@@ -122,6 +100,18 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Salir";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnTienda
+            // 
+            this.btnTienda.Font = new System.Drawing.Font("Verdana", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTienda.Location = new System.Drawing.Point(232, 89);
+            this.btnTienda.Name = "btnTienda";
+            this.btnTienda.Size = new System.Drawing.Size(155, 58);
+            this.btnTienda.TabIndex = 5;
+            this.btnTienda.Text = "Tienda";
+            this.btnTienda.UseVisualStyleBackColor = true;
+            this.btnTienda.Click += new System.EventHandler(this.btnTienda_Click);
             // 
             // FrmPrincipal
             // 
@@ -131,10 +121,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(623, 410);
+            this.Controls.Add(this.btnTienda);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnProveedores);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
@@ -155,9 +144,8 @@
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnProveedores;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnTienda;
     }
 }

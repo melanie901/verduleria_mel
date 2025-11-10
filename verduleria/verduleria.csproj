@@ -59,6 +59,12 @@
     <Compile Include="EliminarUsuario.Designer.cs">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FmrProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmrProveedores.Designer.cs">
+      <DependentUpon>FmrProveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,18 @@
     </Compile>
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTienda.Designer.cs">
+      <DependentUpon>FrmTienda.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUsuario.cs">
       <SubType>Form</SubType>
@@ -92,11 +110,20 @@
     <EmbeddedResource Include="EliminarUsuario.resx">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FmrProveedores.resx">
+      <DependentUpon>FmrProveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTienda.resx">
+      <DependentUpon>FrmTienda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
@@ -109,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="registro de usuarios.resx">
       <DependentUpon>registro de usuarios.cs</DependentUpon>
@@ -125,6 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-10-08 a las 12.42.19_cdc9eef7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fond.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

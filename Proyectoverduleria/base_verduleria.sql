@@ -96,6 +96,36 @@ LOCK TABLES `empleados` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `pedidos_proveedor`
+--
+
+DROP TABLE IF EXISTS `pedidos_proveedor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `pedidos_proveedor` (
+  `id_pedido` int NOT NULL AUTO_INCREMENT,
+  `id_proveedor` int NOT NULL,
+  `id_producto` int NOT NULL,
+  `cantidad` int NOT NULL,
+  `fecha_pedido` date NOT NULL,
+  PRIMARY KEY (`id_pedido`),
+  KEY `pedidos_proveedor_proveedores_FK` (`id_proveedor`),
+  KEY `pedidos_proveedor_productos_FK` (`id_producto`),
+  CONSTRAINT `pedidos_proveedor_productos_FK` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id_producto`),
+  CONSTRAINT `pedidos_proveedor_proveedores_FK` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pedidos_proveedor`
+--
+
+LOCK TABLES `pedidos_proveedor` WRITE;
+/*!40000 ALTER TABLE `pedidos_proveedor` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pedidos_proveedor` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `productos`
 --
 
@@ -108,10 +138,11 @@ CREATE TABLE `productos` (
   `precio` decimal(10,2) NOT NULL,
   `stock` int NOT NULL,
   `id_proveedor` int DEFAULT NULL,
+  `tipo` varchar(50) NOT NULL,
   PRIMARY KEY (`id_producto`),
   KEY `Productos_Proveedores_FK` (`id_proveedor`),
   CONSTRAINT `Productos_Proveedores_FK` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id_proveedor`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -120,6 +151,7 @@ CREATE TABLE `productos` (
 
 LOCK TABLES `productos` WRITE;
 /*!40000 ALTER TABLE `productos` DISABLE KEYS */;
+INSERT INTO `productos` VALUES (1,'Manzana Roja',500.00,100,1,'Fruta'),(2,'Banana',600.00,80,1,'Fruta'),(3,'Lechuga',450.00,60,2,'Verdura');
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -137,7 +169,7 @@ CREATE TABLE `proveedores` (
   `direccion` varchar(150) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_proveedor`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -146,6 +178,7 @@ CREATE TABLE `proveedores` (
 
 LOCK TABLES `proveedores` WRITE;
 /*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
+INSERT INTO `proveedores` VALUES (1,'Frutiverde','2911234567','lainez 2000','Frutiverde@gmail.com'),(2,'Verdulandia','2915267413','guardia vieja 80','Verdulandia@gmail.com');
 /*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -190,7 +223,7 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`idUser`),
   KEY `usuario_tipo_usuarios_FK` (`idTipoUser`),
   CONSTRAINT `usuario_tipo_usuarios_FK` FOREIGN KEY (`idTipoUser`) REFERENCES `tipo_usuarios` (`idTipoUser`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -199,7 +232,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (8,'melanie','8cb2237d0679ca88db6464eac60da96345513964','mel obreque',2,NULL),(9,'noelia','40bd001563085fc35165329ea1ff5c5ecbdbbeef','noe obreque',3,NULL);
+INSERT INTO `usuario` VALUES (8,'melanie','8cb2237d0679ca88db6464eac60da96345513964','mel obreque',2,NULL),(10,'alan','4afa8f9e90756f0f919a124a1dfbba19be004edc','alan seguel',1,NULL),(11,'lucas','7110eda4d09e062aa5e4a390b0a572ac0d2c0220','lucas',3,NULL);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -220,7 +253,7 @@ CREATE TABLE `ventas` (
   KEY `Ventas_Empleados_FK` (`id_empleado`),
   CONSTRAINT `Ventas_Clientes_FK` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id_cliente`),
   CONSTRAINT `Ventas_Empleados_FK` FOREIGN KEY (`id_empleado`) REFERENCES `empleados` (`id_empleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -245,4 +278,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-10-14 16:08:57
+-- Dump completed on 2025-11-10 14:42:16

@@ -65,3 +65,6 @@ D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.CoreC
 D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.Up2Date
 D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.exe
 D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FmrProveedores.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmProductos.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmTienda.resources
