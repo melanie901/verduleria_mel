@@ -1,0 +1,91 @@
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.exe.config
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.exe
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\verduleria.pdb
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.Form1.resources
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.exe
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\MySql.Data.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\System.Memory.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.exe.config
+C:\Users\Melanie\source\repos\verduleria mel\verduleria\obj\Debug\verduleria.csproj.Up2Date
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\verduleria.exe.config
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\verduleria.exe
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\verduleria.pdb
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\MySql.Data.dll
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\System.Memory.dll
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.exe.config
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.Form1.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmPrincipal.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmUsuario.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.registro_de_usuarios.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.csproj.Up2Date
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.exe
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.EliminarUsuario.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\bin\Debug\verduleria.exe.config
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\bin\Debug\verduleria.exe
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\bin\Debug\verduleria.pdb
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.EliminarUsuario.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.Form1.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.FrmPrincipal.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.FrmUsuario.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.registro_de_usuarios.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.exe
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.pdb
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\bin\Debug\verduleria.exe.config
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\bin\Debug\verduleria.exe
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\bin\Debug\verduleria.pdb
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\bin\Debug\System.Memory.dll
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\bin\Debug\System.Numerics.Vectors.dll
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.exe.config
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.EliminarUsuario.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.Form1.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.FrmPrincipal.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.FrmUsuario.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.registro_de_usuarios.resources
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.csproj.Up2Date
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.exe
+D:\Proyecto GALLARDO\verduleria_mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FmrProveedores.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmProductos.resources
+C:\Users\Melanie\OneDrive\Desktop\verduleria mel\verduleria\obj\Debug\verduleria.FrmTienda.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.FmrProveedores.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.FrmProductos.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.FrmTienda.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria_mel\verduleria\obj\Debug\verduleria.exe.config
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\bin\Debug\verduleria.exe.config
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\bin\Debug\verduleria.exe
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\bin\Debug\verduleria.pdb
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.csproj.AssemblyReference.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.EliminarUsuario.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.FmrProveedores.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.Form1.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.FrmPrincipal.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.FrmProductos.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.FrmTienda.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.FrmUsuario.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.Properties.Resources.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.registro_de_usuarios.resources
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.csproj.GenerateResource.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.csproj.CoreCompileInputs.cache
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.exe
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.pdb
+C:\Users\nico_\OneDrive\Escuela\Técnica\7mo\Proyecto\2025\PROYECTOS\OBREQUE\verduleria mel\verduleria\obj\Debug\verduleria.exe.config
