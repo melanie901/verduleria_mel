@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="verduleria.Conexion">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAAAAgAAAAAAAAAAEAAAAABAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Conexion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.ControlLogin">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ControlLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.ControlUsuario">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.EliminarUsuario">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAAwAAACAEAAKCAAAAAAAABAAAAAIAAA=</HashCode>
+      <FileName>EliminarUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.FmrProveedores">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="verduleria.FmrProveedores.CarritoProv" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FmrProveedores.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAhQAQACBABDAAQACAQAACAgAAAAAiIgIAAAgQAAE=</HashCode>
+      <FileName>FmrProveedores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.Form1">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAABJAAAACAAAACAABACEACAAQAAABCAAQ=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.FrmPrincipal">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AcAEAAAAAOAAAIAAAACAAAACgEAAAAAAAIAIAAABAEA=</HashCode>
+      <FileName>FrmPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.FrmProductos">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAEAAgACCAgFAAAgiACEEKCSBgQAAAABgAIAAACAA=</HashCode>
+      <FileName>FrmProductos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.FrmTienda">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="verduleria.FrmTienda.CarritoItem" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FrmTienda.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAOgBAgACBABBACAACAQAADAAAAAADCAAIAiAAIEAE=</HashCode>
+      <FileName>FrmTienda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.FrmUsuario">
+    <Position X="10.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.ModeloLogin">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ModeloLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.ModeloUsuarios">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAACAAAAAEEAgCAAAEAAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ModeloUsuarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.Program">
+    <Position X="6.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.registro_de_usuarios">
+    <Position X="8.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiAABAAADEAAJgEAAKAAACKCQBAAAAAAEBEAAAIAAA=</HashCode>
+      <FileName>registro de usuarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.Usuario">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACAAAAAAAAAAAgAAAAAAAAAACAAQAAAAAEAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.Properties.Resources">
+    <Position X="10.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAABEAAAAQAAAAAAAAAAAAAAAII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="verduleria.Properties.Settings">
+    <Position X="2.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
